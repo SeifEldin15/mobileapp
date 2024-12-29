@@ -16,6 +16,28 @@ web-build/
 *.key
 *.mobileprovision
 
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+!ios/*.xcworkspace/contents.xcworkspacedata
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/*.iml
+android/.idea/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/app/release/
+
 # Metro
 .metro-health-check*
 
