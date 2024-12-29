@@ -3,13 +3,12 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import  AntDesign  from "@expo/vector-icons/AntDesign";
 import { LinearGradient } from 'expo-linear-gradient';
 import React from "react";
-import { useNavigation } from "expo-router";
+import { router } from 'expo-router';
 
 const LoginScreen = () => {
-    const navigation = useNavigation();
 
     const handleRegister = () => {
-        navigation.navigate("Signup");
+        router.push('/Signup');
     };
 
   return (
